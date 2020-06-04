@@ -13,7 +13,8 @@ namespace BalticSportAPI.Models
         public Customer Customer { get; set; }
         public DateTime OrderDate { get; set; }
         public int OrderQuantity { get; set; }
-        public SqlMoney OrderPrice { get; set; }
+        [Column(TypeName = "money")]
+        public decimal OrderPrice { get; set; }
         public int Discount { get; set; }
     }
 }

@@ -15,7 +15,8 @@ namespace BalticSportAPI.Models
         [Required]
         [MaxLength(250)]
         public string BookTitle { get; set; }
-        public SqlMoney ProductPrice { get; set; }
+        [Column(TypeName = "money")]
+        public decimal ProductPrice { get; set; }
         public int InStock { get; set; }
     }
 }
