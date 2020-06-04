@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalticBooks", "BalticBooks\BalticBooks.csproj", "{2C750D80-0E2F-44DC-AA27-0F8114E88100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessLibrary", "AccessLibrary\AccessLibrary.csproj", "{14A5CBA4-7AC7-4864-807B-1706F5248BB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C750D80-0E2F-44DC-AA27-0F8114E88100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C750D80-0E2F-44DC-AA27-0F8114E88100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C750D80-0E2F-44DC-AA27-0F8114E88100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C750D80-0E2F-44DC-AA27-0F8114E88100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A5CBA4-7AC7-4864-807B-1706F5248BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A5CBA4-7AC7-4864-807B-1706F5248BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A5CBA4-7AC7-4864-807B-1706F5248BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A5CBA4-7AC7-4864-807B-1706F5248BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE85E9D-4C74-4974-98B7-4207D6940BB6}
+	EndGlobalSection
+EndGlobal
