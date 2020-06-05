@@ -10,4 +10,4 @@ This is a brief overview / guide for the user interface.
 
 When you launch the application you will be greeted with a welcome message and a introductory page.
 To create a new customer navigate to the Customers link as the top right hand side. After clicking the link you will find your self in the Customers List page. 
-https://user-images.githubusercontent.com/50183183/83873497-d52ab680-a72b-11ea-8fc7-f9132166816a.png
+![](/BalticBooks/gitImages/CustomerList.png)
