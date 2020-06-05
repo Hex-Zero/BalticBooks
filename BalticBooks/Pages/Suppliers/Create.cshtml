@@ -23,16 +23,16 @@
                 <input asp-for="Supplier.SupplierEmail" class="form-control" />
                 <span asp-validation-for="Supplier.SupplierEmail" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div>
                 <input type="submit" value="Create" class="btn btn-primary" />
+                <div class="btn btn-outline-primary back-button-backgroud">
+                    <a class="back-button" asp-page="Index">Back</a>
+                </div>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

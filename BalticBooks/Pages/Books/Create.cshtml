@@ -27,17 +27,16 @@
                 <label asp-for="Book.InStock" class="control-label"></label>
                 <input asp-for="Book.InStock" class="form-control" />
                 <span asp-validation-for="Book.InStock" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+            </div><div class="form-group">
+    <input type="submit" value="Create" class="btn btn-primary" />
+    <div class="btn btn-outline-primary back-button-backgroud">
+        <a class="back-button" asp-page="Index">Back</a>
+    </div>
+</div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

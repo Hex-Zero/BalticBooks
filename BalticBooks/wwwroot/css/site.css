@@ -16,10 +16,24 @@ a {
         color: rebeccapurple;
         text-decoration: none;
     }
+
+.back-button {
+    color: #1861ac;
+}
+.back-button-backgroud:hover {
+    background-color: #1861ac;
+}
+.back-button-backgroud {
+    margin-left: 12px;
+}
+.back-button:hover {
+   
+    color: white;
+}
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {

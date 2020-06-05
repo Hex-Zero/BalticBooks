@@ -23,6 +23,11 @@ namespace BalticBooks.Pages.OrderLines
         public async Task OnGetAsync()
         {
             OrderLine = await _context.OrderLines.ToListAsync();
+            OrderLine = _context.OrderLines
+            .Include(c => c.Order)
+            .Include(c => c.Supplier)
+            .Include(c => c.Book)
+            .ToList();
         }
     }
 }
