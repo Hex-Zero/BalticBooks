@@ -2,7 +2,7 @@
 
 Hi, I glad to introduce you to this database design-based project. It is build using Visual studio, SQL, .NET Core and Entity Framework. The project is a Books retaliates database and as user interface that connects to the database to create, retrieve, update and delete entries. The following document contains brief user guide, technical specifications and database structure, in that order. Strap yourself in and lest get going!
 
-### Note - you can find a copy of the database used in this project in the file by name BalticBooks.bak.
+### Note - you can find a copy of the database used in this project in the file by name BalticBooks.bak
 
 # User Guide
 This is a brief overview / guide for the user interface.
