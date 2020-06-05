@@ -9,9 +9,13 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: rebeccapurple;
+  text-decoration : none;
 }
-
+    a:hover {
+        color: rebeccapurple;
+        text-decoration: none;
+    }
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

@@ -23,6 +23,9 @@ namespace BalticBooks.Pages.Orders
         public async Task OnGetAsync()
         {
             Order = await _context.Orders.ToListAsync();
+            Order = _context.Orders
+             .Include(c => c.Customer)
+             .ToList();
         }
     }
 }

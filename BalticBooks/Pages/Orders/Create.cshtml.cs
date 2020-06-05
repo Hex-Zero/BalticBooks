@@ -17,24 +17,34 @@ namespace BalticBooks.Pages.Orders
         {
             _context = context;
         }
-
-        public IActionResult OnGet()
-        {
-            return Page();
-        }
-
         [BindProperty]
         public Order Order { get; set; }
 
+        public List<SelectListItem> Options { get; set; }
+        public IActionResult OnGet()
+        {
+            Options = _context.Customers.Select(a =>
+                                          new SelectListItem
+                                          {
+                                              Value = a.Id.ToString(),
+                                              Text = a.CustomerName
+                                          }).ToList();
+            return Page();
+        }
+       
+      
+      
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://aka.ms/RazorPagesCRUD.
+
         public async Task<IActionResult> OnPostAsync()
         {
+
+            
             if (!ModelState.IsValid)
             {
                 return Page();
             }
-
             _context.Orders.Add(Order);
             await _context.SaveChangesAsync();
 

@@ -20,8 +20,8 @@ namespace BalticBooks.Pages.Orders
         }
 
         [BindProperty]
-        public Order Order { get; set; }
-
+        public Order Order { get; set; } 
+        public List<SelectListItem> Options { get; set; }
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
@@ -30,22 +30,32 @@ namespace BalticBooks.Pages.Orders
             }
 
             Order = await _context.Orders.FirstOrDefaultAsync(m => m.Id == id);
-
+           
             if (Order == null)
             {
                 return NotFound();
+
             }
+            Options = _context.Customers.Select(a =>
+                                          new SelectListItem
+                                          {
+                                              Value = a.Id.ToString(),
+                                              Text = a.CustomerName
+                                          }).ToList();
             return Page();
         }
 
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://aka.ms/RazorPagesCRUD.
+        
         public async Task<IActionResult> OnPostAsync()
         {
+           
             if (!ModelState.IsValid)
             {
                 return Page();
             }
+         
 
             _context.Attach(Order).State = EntityState.Modified;
 
