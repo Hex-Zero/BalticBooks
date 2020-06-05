@@ -15,8 +15,8 @@ To create a new customer, navigate to the Customers link as the top right-hand s
 ![](/BalticBooks/gitImages/CustomerList.png)
 
 
-###When you will have customers in your database, they will be shown here and there data will be available to link with the orders.
-###To create a new customer, click the Create Customer + button. This will lead you to the Creation page.
+When you will have customers in your database, they will be shown here and there data will be available to link with the orders.
+To create a new customer, click the Create Customer + button. This will lead you to the Creation page.
 
 
 ![](/BalticBooks/gitImages/CustomerList.png)
