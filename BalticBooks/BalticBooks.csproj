@@ -23,4 +23,8 @@
     <ProjectReference Include="..\AccessLibrary\AccessLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="gitImages\" />
+  </ItemGroup>
+
 </Project>
