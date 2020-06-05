@@ -6,7 +6,7 @@ Hi, I glad to introduce you to this database design based project. It is build u
 This is a brief overview / guide for the user interface.
 
 
-## Creating / Adding Customers
+## Customers (CRUD)
 
 When you launch the application you will be greeted with a welcome message and a introductory page.
 To create a new customer navigate to the Customers link as the top right hand side. After clicking the link you will find your self in the Customers List page. 
