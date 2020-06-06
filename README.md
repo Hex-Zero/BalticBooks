@@ -68,3 +68,26 @@ To create an order, you must have A customer, supplier and a book prior. Because
 ![](/BalticBooks/gitImages/)
 
 
+
+# Database Design
+
+The database was designed to allow a company to transition from soring information in a flat file, to a more flexible and secure database structure.
+
+## Normalization
+
+I start with as small sample of the data and Normalized it using the 3 Normal Forms methodology.
+
+![](/BalticBooks/gitImages/normalization.jpg)
+
+This helped realize the constraints that will have to be followed.
+
+## Entity Relational Diagram
+There are three main types of ERD’s. I chose to use a hybrid of physical and logical. That looks like this.
+
+![](/BalticBooks/gitImages/erd.jpg)
+
+This allows to visualise and determine relationships between table. Also, the data type suggestions are specified.
+Following the diagram, I have built the database with Entity Framework.
+
+# Software Technical Specification.
+
