@@ -1,6 +1,6 @@
 # Welcome to Baltic Books!
 
-Hi, I glad to introduce you to this database design-based project. It is build using Visual studio, SQL, .NET Core and Entity Framework. The project is a Books retaliates database and as user interface that connects to the database to create, retrieve, update and delete entries. The following document contains brief user guide, database structure and technical specifications, in that order. Strap yourself in and lest get going!
+Hi, I glad to introduce you to this database design-based project. It is build using Visual studio, SQL, .NET Core and Entity Framework. The project is a Books retaliates database and as user interface that connects to the database to create, retrieve, update and delete entries. The following document contains brief user guide and database structure. Strap yourself in and lest get going!
 
 ### Note - you can find a copy of the database used in this project in the file by name BalticBooks.bak
 
@@ -89,5 +89,5 @@ There are three main types of ERD’s. I chose to use a hybrid of physical and l
 This allows to visualise and determine relationships between table. Also, the data type suggestions are specified.
 Following the diagram, I have built the database with Entity Framework.
 
-# Software Technical Specification.
+
 
