@@ -16,7 +16,9 @@ To create a new customer, navigate to the Customers link as the top right-hand s
 
 
 
+
 ![](/BalticBooks/gitImages/welcome.jpg)
+
 
 
 
@@ -27,11 +29,17 @@ To create a new customer, click the Create Customer + button. This will lead you
 
 
 
+
 ![](/BalticBooks/gitImages/createCustomer.jpg)
+
+
 
 ##
 
+
+
 ![](/BalticBooks/gitImages/listCustomer.jpg)
+
 
 
 
@@ -42,7 +50,9 @@ After the creation you will be taken back to the customers list page. This will 
 
 
 
+
 ![](/BalticBooks/gitImages/editCustomer.jpg)
+
 
 
 
@@ -51,21 +61,24 @@ After the creation you will be taken back to the customers list page. This will 
 It is extremely similar to the Customer operation. I will not go over them here as they can be easily worked out following the customer guide.
 
 
-
 # Managing Orders / Order Lines
 You can find orders in the order screen with the associate orderliness by clicking on the details of the order.
 
 
 
-![](/BalticBooks/gitImages/)
-
-
-
-To create an order, you must have A customer, supplier and a book prior. Because none of the order or order line fields can be left empty. After adding customer and the date of the order you will be able to add any number of order lines that contains bucks from different suppliers.
-
-
 
 ![](/BalticBooks/gitImages/)
+
+
+
+
+To create an order, you must have A customer, supplier and a book prior. Because none of the order or order line fields can be left empty. After adding customer and the date of the order you will be able to add any number of order lines that contains books from different suppliers.
+
+
+
+
+![](/BalticBooks/gitImages/)
+
 
 
 
@@ -77,14 +90,22 @@ The database was designed to allow a company to transition from soring informati
 
 I start with as small sample of the data and Normalized it using the 3 Normal Forms methodology.
 
+
+
 ![](/BalticBooks/gitImages/normalization.jpg)
+
+
 
 This helped realize the constraints that will have to be followed.
 
 ## Entity Relational Diagram
 There are three main types of ERD’s. I chose to use a hybrid of physical and logical. That looks like this.
 
+
+
 ![](/BalticBooks/gitImages/erd.jpg)
+
+
 
 This allows to visualise and determine relationships between table. Also, the data type suggestions are specified.
 Following the diagram, I have built the database with Entity Framework.
